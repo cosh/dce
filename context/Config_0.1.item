@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="InputDirectory" prompt="InputDirectory?" promptNeeded="false" type="id_Directory" value="D:/Privat/Github/10CoreExperiment/scripts/"/>
+    <contextParameter comment="" name="AMQHost" prompt="AMQHost?" promptNeeded="false" type="id_String" value="127.0.0.1"/>
+    <contextParameter comment="" name="CommandQueue" prompt="CommandQueue?" promptNeeded="false" type="id_String" value="Command"/>
+    <contextParameter comment="" name="ResultQueue" prompt="ResultQueue?" promptNeeded="false" type="id_String" value="Result"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="test">
+    <contextParameter comment="" name="InputDirectory" prompt="InputDirectory?" promptNeeded="false" type="id_Directory" value="E:\Data\test\"/>
+    <contextParameter comment="" name="AMQHost" prompt="AMQHost?" promptNeeded="false" type="id_String" value="127.0.0.1"/>
+    <contextParameter comment="" name="CommandQueue" prompt="CommandQueue?" promptNeeded="false" type="id_String" value="Command"/>
+    <contextParameter comment="" name="ResultQueue" prompt="ResultQueue?" promptNeeded="false" type="id_String" value="Result"/>
+  </talendfile:ContextType>
+</xmi:XMI>
